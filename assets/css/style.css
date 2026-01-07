@@ -234,7 +234,7 @@ main {
   position: absolute;
   inset: 0;
 
-  background-image: url("../assets/images/sfondo.jpg");
+  background-image: url("../images/sfondo.jpg");
   background-size: cover;
   background-position: center;
   opacity: 70%;
@@ -591,4 +591,5 @@ section {
 .footer a:hover {
     color: var(--color-red);
     border-bottom: 1px solid var(--color-red);
+
 }
