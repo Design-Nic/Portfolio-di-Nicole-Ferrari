@@ -526,3 +526,51 @@ section {
     box-shadow: 0 10px 20px rgba(176, 0, 0, 0.2);
 }
 
+/* FOOTER */
+
+.footer {
+    background-color: rgb(28, 28, 28);
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 0.95rem;
+    padding: 50px 0;
+}
+
+.footer-copy p {
+    color: #e0e0e0;
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.footer-socials a {
+    color: #ffffff;
+    font-size: 1.4rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.footer-socials a:hover {
+    color: var(--color-red);
+    transform: translateY(-3px);
+}
+
+.footer a {
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: var(--transition);
+    border-bottom: 1px solid transparent;
+}
+
+.footer a:hover {
+    color: var(--color-red);
+    border-bottom: 1px solid var(--color-red);
+
+}
