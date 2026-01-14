@@ -36,7 +36,7 @@ a {
   align-items: center; 
 }
 
-.h2 {
+.fw-bold {
     font-size: calc(1.325rem + .9vw);
     padding-top: 100 px !important;
 }
@@ -210,5 +210,6 @@ a {
     border-bottom: 1px solid var(--color-red);
 
 }
+
 
 
