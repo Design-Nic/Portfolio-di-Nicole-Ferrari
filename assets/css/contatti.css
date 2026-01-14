@@ -36,6 +36,10 @@ a {
   align-items: center; 
 }
 
+.contact-title {
+    margin-top: 40px; 
+}
+
 .contact-section h2, 
 .contact-section h6 {
     color: #ffffff !important;
@@ -154,6 +158,7 @@ a {
 
 #form-status.success { color: green; }
 #form-status.error { color: var(--color-red); }
+
 
 
 
