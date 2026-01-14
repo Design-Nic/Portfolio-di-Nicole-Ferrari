@@ -36,8 +36,8 @@ a {
   align-items: center; 
 }
 
-.contatto {
-    color: --color-red;
+.contact-section h2 .contatto {
+    color: #b00000 !important;
 }
 
 .contact-title {
@@ -162,6 +162,7 @@ a {
 
 #form-status.success { color: green; }
 #form-status.error { color: var(--color-red); }
+
 
 
 
