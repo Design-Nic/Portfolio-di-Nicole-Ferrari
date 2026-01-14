@@ -37,7 +37,7 @@ a {
 }
 
 .contact-title {
-    margin-top: 40px; 
+    margin-top: 40px !important; 
 }
 
 .contact-section h2, 
@@ -158,6 +158,7 @@ a {
 
 #form-status.success { color: green; }
 #form-status.error { color: var(--color-red); }
+
 
 
 
