@@ -36,6 +36,11 @@ a {
   align-items: center; 
 }
 
+.h2, h2 {
+    font-size: calc(1.325rem + .9vw);
+    padding-top: 10 px;
+}
+
 .contact-section h2, 
 .contact-section h6 {
     color: #ffffff !important;
@@ -205,3 +210,4 @@ a {
     border-bottom: 1px solid var(--color-red);
 
 }
+
