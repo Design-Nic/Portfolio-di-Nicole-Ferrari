@@ -174,17 +174,19 @@ input[type="radio"] {
       align-items: center;
       opacity: 0;
       transition: 0.3s ease;
-      padding: 20px;
+      padding: 15px;
       text-align: center;
 
       h4 { 
-        margin-bottom: 10px; 
+        margin-bottom: 5px;
         color: white;
+        font-size: clamp(1rem, 2vw, 1.2rem);
       }
       p { 
         color: $red-brand; 
-        margin-bottom: 20px; 
         font-weight: 600;
+        margin-bottom: 12px;
+        font-size: 0.85rem;
       }
             
       .btn-view {
@@ -206,6 +208,7 @@ input[type="radio"] {
     }
   }
 }
+
 
 
 
